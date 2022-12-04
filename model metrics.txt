@@ -1,0 +1,14 @@
+Neural network model for tumor diagnosis from image.
+1st layer: Convolutional 2D layer 32 nodes, 5x5 kernal, stride=2, relu.
+2nd: MaxPooling2D
+3rd: Convolutional 2d layer 64 nodes, 3x3 kernal, relu.
+4th: Flatten
+5th: Dense layer 1024 nodes, relu.
+6th: Dropout rate .3
+7th: Dense layer 512 nodes, relu.
+Output layer: Dense 2 nodes, sigmoid.
+
+Precision: .99
+Recall: .99
+Accuracy: .99
+F1 score: .99
